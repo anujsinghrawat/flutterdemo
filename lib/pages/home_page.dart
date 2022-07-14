@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import '../widgets/drawer.dart';
+
 class Homepage extends StatelessWidget {
   const Homepage({Key? key}) : super(key: key);
 
@@ -16,7 +18,7 @@ class Homepage extends StatelessWidget {
           child: Container(
         child: Text("kya haal hai female grils aao $days kare or $name "),
       )),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
