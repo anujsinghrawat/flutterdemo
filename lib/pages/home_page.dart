@@ -12,7 +12,10 @@ class Homepage extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("BDSM karna hai"),
+        
+        title: Text("khareedi",
+        
+        ),
       ),
       body: Center(
           child: Container(
