@@ -19,7 +19,6 @@ class MyApp extends StatelessWidget {
     // var day = "Tuesday";
     // const pi = 3.14;
 
-    
     bringMaal(ruppes: 1000);
     return MaterialApp(
       themeMode: ThemeMode.light,
@@ -27,9 +26,9 @@ class MyApp extends StatelessWidget {
       darkTheme: MyTheme.darkTheme(context),
       initialRoute: "MyRoutes.homeRoute",
       routes: {
-        "/":(context) => LoginPage(),
-        MyRoutes.loginRoute : (context) => new LoginPage(),
-        MyRoutes.homeRoute : (context) => new Homepage(),
+        "/": (context) => Homepage(),
+        MyRoutes.loginRoute: (context) => new LoginPage(),
+        MyRoutes.homeRoute: (context) => new Homepage(),
       },
       debugShowCheckedModeBanner: false,
     );
